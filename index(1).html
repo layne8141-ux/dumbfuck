@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Join nmcli on https://nmcli.lol for exclusive bonuses and rewards! (100% FREE!!)">
+  <meta property="og:description" content="Join the ultimate chat experience on Only Fans Chat! Connect with like-minded individuals, share exciting content, and explore a community where fun and creativity meet. Don't miss out on exclusive conversations and interactive features that make every moment special. Start chatting now!">
+  <meta property="og:image" content="https://media.discordapp.net/attachments/1307898117429133382/1322887456948879400/of-logo-b.png?ex=67728273&is=677130f3&hm=c922daa1fbf3eab8cf954fe5dc35a90f5c340528803ac56da90783de5cc0440e&=&format=webp&quality=lossless&width=468&height=468">
+  <meta property="og:url" content="https://nmcli.lol">
+  <title>OnlyFans Chat-Room</title>
+  <style>
+    body {
+      background-color: white;
+      transition: background-color 0.3s ease;
+    }
+    #spoiler {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      font-size: 24px;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+      z-index: 10;
+      cursor: pointer;
+    }
+    video {
+      width: 100%;
+      height: auto;
+      visibility: hidden;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="spoiler">
+    Please click this text to confirm you are not a robot
+  </div>
+
+  <video id="video" muted>
+    <source src="movie.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <script>
+    const spoiler = document.getElementById('spoiler');
+    const video = document.getElementById('video');
+    const body = document.body;
+
+    spoiler.addEventListener('click', () => {
+      spoiler.style.display = 'none'; 
+      video.style.visibility = 'visible'; 
+      video.muted = false; 
+      video.play(); 
+      body.style.backgroundColor = 'black';
+    });
+  </script>
+
+</body>
+</html>
